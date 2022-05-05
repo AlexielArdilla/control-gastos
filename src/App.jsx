@@ -21,7 +21,7 @@ function App() {
     setTimeout(() => { 
       
       setAnimarModal(true)  
-    }, 500);
+    }, 700);
   }
 
   return (
@@ -42,6 +42,7 @@ function App() {
     {modal && <Modal 
     setModal={setModal}
     animarModal={animarModal}
+    setAnimarModal={setAnimarModal}
     />}
 
     </div>
