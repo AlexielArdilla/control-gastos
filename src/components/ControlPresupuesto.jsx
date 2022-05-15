@@ -1,6 +1,6 @@
 
 
-const ControlPresupuesto = ({presupuesto}) => {
+const ControlPresupuesto = ({presupuesto, gastos}) => {
 
 const formatearCantidad =(cantidad)=>{
 
